@@ -1,11 +1,33 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  //iterate from the begining to the middle
+//racecar 7/2 == 3.5
+//aaaaaa 6/2 == 3
+for (let i = 0; i < word.length/2; i++) {
+  // check each letter to the corresponding letter from the end
+  const j = word.length-1-i 
+  if (word[i] !== word[j]) return false;
+  
+}
+//check each character to the responding letter from the end
+//if any of the letter don't match, return false
+
+//return true
+return true
 }
 
 /* 
   Add your pseudocode here
 */
+//That means if the
+//first letter is the same as the last letter, and second letter is the same
+//as the second last letter, etc, until we reach middle, reurn true
 
+
+//iterate from the begining to the middle
+//check each character to the responding letter from the end
+//if any of the letter don't match, return false
+
+//return true
 /*
   Add written explanation of your solution here
 */
